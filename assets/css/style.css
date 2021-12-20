@@ -1,0 +1,126 @@
+/* Default style */
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Button style */
+.btn {
+	display: inline-block;
+	height: 48px;
+	line-height: 44px;
+	padding: 0 45px;
+	font-size: 18px;
+	border: 2px solid #04aa6d;
+	color: #fff;
+	transition: 0.2s;
+	border-radius: 25px;
+	font-weight: 600;
+	background: #04aa6d;
+}
+.btn.btn-outline {
+	height: 42px;
+	line-height: 40px;
+	padding: 0 40px;
+	background: transparent;
+	border-radius: 25px;
+}
+.btn:hover,
+.btn-outline:hover {
+	background: rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+	}
+}
+
+/* Header style */
+
+.header-area {
+	position: absolute;
+	width: 100%;
+	padding: 20px 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Hero area style */
+
+.hero-area {
+	background: linear-gradient(rgb(40, 42, 53, 0.9), rgb(40, 42, 53, 0.9)),
+		url(../images/hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 150px;
+	height: 650px;
+}
+.hero-content {
+	text-align: center;
+	color: #fff;
+}
+.hero-content h2 {
+	font-size: 60px;
+	margin-bottom: 25px;
+	font-weight: 700;
+}
+.hero-content h3 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.hero-content p {
+	font-size: 20px;
+	margin-bottom: 30px;
+	font-weight: 400;
+}
+.hero-content p span {
+	font-weight: 700;
+	color: #ffc0c7;
+}
+
+/* Feature area style */
+.feature-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 60px 30px 30px 60px;
+}
+.feature-item {
+	min-width: 600px;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.feature-item h3 {
+	font-size: 24px;
+	color: #04aa6d;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.feature-item p {
+	font-size: 16px;
+	color: #282a35;
+	margin-top: 0;
+	max-width: 202px;
+	margin: auto;
+}
